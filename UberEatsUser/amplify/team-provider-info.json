@@ -16,5 +16,26 @@
         "UberEats": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubereats-dev-231314-authRole",
+      "UnauthRoleArn": "arn:aws:iam::090885955486:role/amplify-ubereats-dev-231314-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::090885955486:role/amplify-ubereats-dev-231314-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ubereats-dev-231314-deployment",
+      "UnauthRoleName": "amplify-ubereats-dev-231314-unauthRole",
+      "StackName": "amplify-ubereats-dev-231314",
+      "StackId": "arn:aws:cloudformation:us-east-1:090885955486:stack/amplify-ubereats-dev-231314/e60de7c0-0cbc-11ee-8c19-0a48cbbc62f3",
+      "AmplifyAppId": "d215kec5akzg3n"
+    },
+    "categories": {
+      "auth": {
+        "UberEats": {}
+      },
+      "api": {
+        "UberEats": {}
+      }
+    }
   }
 }

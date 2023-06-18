@@ -16,17 +16,17 @@ const OrderStatus = {
   "ACCEPTED": "ACCEPTED"
 };
 
-const { Courier, Basket, BasketDish, Dish, OrderDish, Order, Restaurant, User } = initSchema(schema);
+const { Courier, Basket, OrderDish, Order, BasketDish, User, Dish, Restaurant } = initSchema(schema);
 
 export {
   Courier,
   Basket,
-  BasketDish,
-  Dish,
   OrderDish,
   Order,
-  Restaurant,
+  BasketDish,
   User,
+  Dish,
+  Restaurant,
   TransportationModes,
   OrderStatus
 };
