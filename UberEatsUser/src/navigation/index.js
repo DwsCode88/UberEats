@@ -20,9 +20,9 @@ const RootNavigator = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       {dbUser ? (
-        <Stack.Screen name="HomeTabs" component={HomeTabs} />
-      ) : (
         <Stack.Screen name="Profile" component={ProfileScreen} />
+      ) : (
+        <Stack.Screen name="HomeTabs" component={HomeTabs} />
       )}
     </Stack.Navigator>
   );

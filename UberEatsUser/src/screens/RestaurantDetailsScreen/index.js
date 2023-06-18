@@ -24,6 +24,8 @@ const RestaurantDetailsPage = () => {
 
   const id = route.params?.id;
 
+
+
   const {
     setRestaurant: setBasketRestaurant,
     basket,

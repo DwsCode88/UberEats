@@ -5,10 +5,10 @@ import { Auth, DataStore } from "aws-amplify";
 import { User } from "../../models";
 import { useAuthContext } from "../../contexts/AuthContext";
 import { useNavigation } from "@react-navigation/native";
-import { Logger } from 'aws-amplify';
+
 
 const Profile = () => {
-  const logger = new Logger('foo');
+ 
   const { dbUser } = useAuthContext();
 
   const [name, setName] = useState(dbUser?.name || "");
